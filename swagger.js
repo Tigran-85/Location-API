@@ -30,6 +30,15 @@ const swaggerDocument = {
                             schema: {
                                 $ref: '#/components/schemas/LocationInput',
                             },
+                            example: {
+                                "name": "New York",
+                                "description": "Nice city",
+                                "category": "USA",
+                                "rating": 5,
+                                "review_count": 50,
+                                "latitude": "40.177200",
+                                "longitude": "44.503490"
+                            }
                         },
                     },
                 },
@@ -74,6 +83,25 @@ const swaggerDocument = {
                     bearerAuth: []
                 }],
                 summary: 'Updating Location Documents by Their Category',
+                requestBody: {
+                    required: true,
+                    content: {
+                        'application/json': {
+                            schema: {
+                                $ref: '#/components/schemas/LocationInput',
+                            },
+                            example: {
+                                "name": "New York",
+                                "description": "Nice city",
+                                "category": "USA",
+                                "rating": 5,
+                                "review_count": 50,
+                                "latitude": "40.177200",
+                                "longitude": "44.503490"
+                            }
+                        },
+                    },
+                },
                 parameters: [
                     {
                         in: 'query',
@@ -127,6 +155,25 @@ const swaggerDocument = {
                     bearerAuth: []
                 }],
                 summary: 'Updating a Location Document by Its ID',
+                requestBody: {
+                    required: true,
+                    content: {
+                        'application/json': {
+                            schema: {
+                                $ref: '#/components/schemas/LocationInput',
+                            },
+                            example: {
+                                "name": "New York",
+                                "description": "Nice city",
+                                "category": "USA",
+                                "rating": 5,
+                                "review_count": 50,
+                                "latitude": "40.177200",
+                                "longitude": "44.503490"
+                            }
+                        },
+                    },
+                },
                 parameters: [
                     {
                         in: 'path',

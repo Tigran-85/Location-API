@@ -34,7 +34,6 @@ class LocationDocumentController {
         const data = await this.locationService.deleteOne(req);
         res.status(data.statusCode).json(data);
     }
-
 }
 
 module.exports = LocationDocumentController;

@@ -1,0 +1,49 @@
+{
+    "body": {
+      "createInput": {
+        "name": "New York",
+        "description": "Nice city",
+        "category": "USA",
+        "rating": 5,
+        "review_count": 50,
+        "latitude": "40.177200",
+        "longitude": "44.503490"
+      },
+      "loginData": {
+        "email": "tigranpoghosyan91@gmail.com",
+        "password": "1234sdGfs-Wf56"
+      }
+    },
+    "query": {
+        "locationParams": {
+            "validId": "65db4af20795ec5fa0e1a958",
+            "inValidId": "65db473114b88d4c66faf9bf",
+            "page": 1,
+            "page_size": 10,
+            "category": "USA",
+            "inValidCategory": "aasdasd"
+        }
+    },
+    "messages": {
+      "createLocationDocumentSuccess": "Location created successfully",
+      "updateLocationDocumentSuccess": "Location updated successfully",
+      "updateLocationsDocumentSuccess": "Locations updated successfully",
+      "locationNotFoundMessage": "Location not found",
+      "locationsNotFoundMessage": "Locations not found",
+      "deleteLocationDocumentSuccess": "Location deleted successfully",
+      "UnauthorizedMessage": "Unauthorized"
+    },
+    "statusCodes": {
+      "successStatusCode": 200,
+      "successCreatedCode": 201,
+      "UnauthorizedCode": 401,
+      "notFoundStatusCode": 404
+    },
+    "responseData": {
+      "pagination": {
+        "total_pages": 6,
+        "current_page": "1",
+        "page_size": 10
+      }
+    }
+  }

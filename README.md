@@ -46,6 +46,7 @@ This document outlines the endpoints and methods available for interacting with 
 - **Parameters:**
     - `page` (default: 1): Page number for pagination.
     - `page_size` (default: 10): Number of locations per page.
+    - `category` Location category.
 
 ## Retrieval of a Specific Location Document by ID
 

@@ -72,7 +72,7 @@ module.exports = class extends BaseService {
                 if(!location) {
                     return this.response({
                         status: false,
-                        statusCode: 400,
+                        statusCode: 404,
                         message: 'Location not found'
                     });
                 }
@@ -114,7 +114,7 @@ module.exports = class extends BaseService {
             if (!location) {
                 return this.response({
                     status: false,
-                    statusCode: 400,
+                    statusCode: 404,
                     message: 'Location not found'
                 });
             }
@@ -137,7 +137,7 @@ module.exports = class extends BaseService {
             if (locations.matchedCount === 0) {
                 return this.response({
                     status: false,
-                    statusCode: 400,
+                    statusCode: 404,
                     message: 'Locations not found'
                 });
             }
@@ -164,7 +164,7 @@ module.exports = class extends BaseService {
                 if (!location) {
                     return this.response({
                         status: false,
-                        statusCode: 400,
+                        statusCode: 404,
                         message: 'Location not found'
                     });
                 }
